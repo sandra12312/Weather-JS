@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="topbar" style="position: relative;">
+            <div class="logo">
+                <h2>WEATHERY</h2>
+            </div>
+            <div class="search">
+                <input type="text" id="search" placeholder="search anything...">
+                <label for="search"><i class="fas fa-search"></i></label>
+            </div>
+            <i class="fas fa-bell"></i>
+
+            <div class="user">
+                <img src="images/user.png" class="user-img">
+            </div>
+
+        </div>
+        <div class="sidebar">
+            <ul>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-th-large"></i>
+                        <div>Dashboard</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-chart-bar"></i>
+                        <div>Analytics</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-map-marker"></i>
+                        <div>map</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-calendar"></i>
+                        <div>calender</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-cog"></i>
+                        <div>settings</div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="main">
+            <div class="baner">
+                <div class="baner-text">
+                    <h1>Hello!</h1>
+                    <p>Welcome back to weatheryy</p>
+                </div>
+                <div class="baner-png">
+                    <img src="images/intro.jpg">
+                </div>
+            </div>
+            <div class="cards">
+                <div class="card-single">
+                    <div class="div1" style="position: absolute; top: 0; left: 0; ">
+                        <img src="images/rise.jpg" width="400px" height="300px" style="border-radius: 10px;">
+                        <div class="" style="position: absolute; top: 20px; "><span
+                                style="color: white; font-size: 20px; padding-left: 50px;"><i class="fas fa-cloud"
+                                    style="padding-right: 20px;"></i>Weather</span></div>
+                        <div class=""
+                            style="position: absolute; top: 35px; font-size: 18px; color: white;padding-left: 90px; padding-top: 10px;">
+                            What's the weather</div>
+                        <div class="" style="position: absolute; top: 100px;  "><span
+                                style="font-size: 30px; color: black; padding-left: 50px; padding-right: 20px;">22°C</span>11°C
+                        </div>
+                        <div class=""
+                            style="position: absolute; top: 130px; font-size: 18px; color: aliceblue; padding-left: 50px; padding-top: 10px;">
+                            partly cloudy</div>
+                            <div class="" style="position: absolute; top: 180px; left: 20px; width: 100px; height: 80px; background: #122161; border-radius: 10px;">
+                                <h1 style="font-size: 12px;font-weight: bold; color: white; padding-top: 20px; padding-left: 20px;">pressure</h1>
+                                <p style="font-size: 13px;color: white; padding-top: 10px; padding-left: 20px;">800mb</p>
+                            
+                            
+                            </div>
+                            <div class="" style="position: absolute; top: 180px; left: 150px; width: 100px; height: 80px; background: #bed945; border-radius: 10px;">
+                                <h1 style="font-size: 16px;font-weight: bold; color: rgb(14, 13, 13); padding-top: 20px; padding-left: 20px;">Visibility</h1>
+                                <p style="font-size: 13px; color: rgb(14, 13, 13); padding-top: 10px; padding-left: 20px;">4.3km</p>
+                            
+                            
+                            </div>
+                            <div class="" style="position: absolute; top: 180px; left: 280px; width: 100px; height: 80px; background: #fff; border-radius: 10px;">
+                                <h1 style="font-size: 12px;font-weight: bold; color: rgb(10, 10, 10); padding-top: 20px; padding-left: 20px;">Humidity</h1>
+                                <p style="font-size: 13px;color: rgb(14, 14, 14); padding-top: 10px; padding-left: 20px;">87%</p>
+                            
+                            
+                            </div>
+
+
+
+                    </div>
+                </div>
+                <div class="card-single">
+                    <div class="div2" style="position: absolute; top: 0; left: 20px; margin-left: 50px;">
+                        <img src="images/sky2.jpg" width="400px" height="300px" style="border-radius: 10px;">
+                        <div class="" style="position: absolute; top: 20px; "><span
+                                style="color: white; font-size: 20px; padding-left: 50px;"><i class="fas fa-wind"
+                                    style="padding-right: 20px;"></i>Air quality</span></div>
+                        <div class=""
+                            style="position: absolute; top: 35px; font-size: 18px; color: white;padding-left: 90px; padding-top: 10px;">
+                            Main pollution:P M 2.5</div>
+                        <div class="" style="position: absolute; top: 100px;  "><span
+                                style="font-size: 30px; color: black; padding-left: 50px; padding-right: 20px;">390</span>AQI
+                        </div>
+                        <div class=""
+                            style="position: absolute; top: 130px; font-size: 18px; color: aliceblue; padding-left: 50px; padding-top: 10px;">
+                            West Wind</div>
+
+                    </div>
+                    <img src="images/graph.jpg" width="300px" height="100px"
+                        style="position: absolute; top: 170px; margin-left: 50px; border-radius: 30px;">
+
+                </div>
+            </div>
+            <div class="month">
+                <div class="month-header">
+                    <div class="paginate-month">
+                        <p>How's the Temperature today?</p>
+
+                        <span>
+                            <a href="" style="color: #ffa000; text-decoration: none;justify-content: space-between;">
+                                <i class="fas fa-temperature-low"></i>
+                                <i class="fas fa-umbrella"></i>
+                                <i class="fas fa-wind"></i></a>
+                        </span>
+                    </div>
+                    <div class="name-month">
+                        <i class="fas fa-calendar-week"></i>
+                        <span>Month</span>
+                    </div>
+                </div>
+                <div class="monthbody" style="position: relative; display: flex;">
+                    <div class="charts">
+                        <canvas id="lineChart" width="400" height="400"></canvas>
+                    </div>
+
+                    <div class="monthday "
+                        style="width: 400px;
+                        height: 280px; background-color: rgb(246, 242, 251); border-radius: 30px; position: relative; ">
+                        <img src="images/umbrella2.jpg" width="400px" style="border-radius: 30px;">
+                        <div class="text1" style="position: absolute; top: 30px; left: 20px;">Tomorrow</div>
+                        <div class="text2"
+                            style="position: absolute; top: 50px; left: 20px; font-size: 30px; font-weight: 400; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+                            Alarm Barzah</div>
+                        <div class="text3"
+                            style="position: absolute; bottom:40px; right: 30px; font-size: 40px; font-weight: bold;">
+                            20°C</div>
+                        <div class="text3"
+                            style="position: absolute; bottom:30px; right: 30px; font-size: 20px; font-weight: lighter;">
+                            Rainy</div>
+
+                    </div>
+
+
+                </div>
+            </div>
+            <div class="weekly">
+                <div class="weekly-header">
+                    <div class="title">
+                        <p>More Details of Today's Weather</p>
+                    </div>
+                    <div class="link">
+                        <a href="#">Today</a>
+                        <a href="#" class="active mx-5">Week</a>
+                        <a href="#">Month</a>
+                    </div>
+                </div>
+                <div class="weekly-body">
+                    <div class="item">
+                        <span class="bd-orange">
+                            <i class="fas fa-tint c-orange"></i>
+                        </span>
+                        <p>Humidity</p>
+                        <p class="item-size">
+                            82%
+                        </p>
+                    </div>
+                    <div class="item">
+                        <span class="bd-red">
+                            <i class="fas fa-wind c-red"></i>
+                        </span>
+                        <p>Wind</p>
+                        <p class="item-size">
+                            8 Km/hr
+                        </p>
+                    </div>
+                    <div class="item">
+                        <span class="bd-cyn">
+                            <i class="fas fa-temperature-high c-cyn"></i>
+                        </span>
+                        <p>Temperature</p>
+                        <p class="item-size">
+                            30°
+                        </p>
+                    </div>
+                    <div class="item">
+                        <span class="bd-blue">
+                            <i class="fas fa-cloud c-blue"></i>
+                        </span>
+                        <p>Chances of Rain</p>
+                        <p class="item-size">
+                            42%
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="statistics-body"
+                style="float: right; margin-top: 100px; position: absolute; left: 994px; bottom: 270px;">
+                <div class="function">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div class="col-xs-12 col-sm-6 col-sm-offset-3 col-lg-4 col-lg-offset-4 weather-panel">
+                                <div class="col-xs-6">
+                                    <h2>Sun<span
+                                            style="padding-left: 190px; font-size:48px; color: orange;">22°C</span><br><small>Banten,Indonesia</small>
+                                    </h2>
+                                </div>
+                                <div class="sun" style="width: 400px; height: 300px; background-color: aqua;">
+                                    <img src="images/sun.jpg">
+
+                                </div>
+                                <div class="sun-div"
+                                    style="width: 280px; height: 90px; background-color: rgb(43, 43, 111); margin-left: 80px; border-radius: 30px; position: relative; margin-top: 20px;" >
+                                    <button
+                                        style="position: absolute; top:10px ; left: 150px; background-color: #d4e879; border-radius: 20px; width: 100px;height: 40px; border: none; font-size: 15px;">Moderate</button>
+                                    <div class=""
+                                        style="position: absolute; top: 10px; left: 20px; font-size: 25px; color: white;">
+                                        <span><i class="fas fa-sun"
+                                                style="padding-right: 5px; color: rgb(237, 176, 63);"></i></span>20 UVI
+                                    </div>
+                                    <div class="" style="position: absolute; bottom: 5px; left: 9px; color: white;">
+                                        Moderate
+                                        risk of from UV rays</div>
+                                </div>
+
+
+                            </div>
+                            <div class="weather-predic" style="width: 100%;">
+                                <h1 style="padding-left: 50px; padding-top: 30px;">WEATHER PREDICTION</h1>
+                                <div class="card">
+
+                                    <div class="card-info">
+
+                                        <h2
+                                            style="margin: 0px; color: rgb(109, 126, 137); font-size: 15px; font-weight: bold;">
+                                            <span> <i class="fas fa-cloud"
+                                                    style="padding-right: 5px; color: rgb(206, 214, 218);"></i></span>November10
+                                        </h2>
+                                        <p>Cloudy</p>
+                                    </div>
+                                    <h2 style="font-size: small; color: rgb(237, 176, 63);">26°C/19°C</h2>
+                                </div>
+                                <div class="card">
+
+                                    <div class="card-info">
+                                        <h2
+                                            style="margin: 0px;color: rgb(109, 126, 137); font-size: 15px; font-weight: bold;">
+                                            <span><i class="fas fa-sun"
+                                                    style="padding-right: 5px; color: rgb(237, 176, 63);"></i></span>November10
+                                        </h2>
+                                        <p>Bright</p>
+                                    </div>
+                                    <h2 style="font-size: small; color:  rgb(237, 176, 63);">26°C/20°C</h2>
+                                </div>
+                            </div>
+
+                            <div
+                                style="width: 180px; height: 50px; background-color: #ffa000;
+                                    padding-left: 5px;; border: none; display: flex; margin-left: 80px; border-radius: 20px; text-align: center;">
+                                <p style="text-align: center; padding-left: 40px; color: white;"><span><i
+                                            class="fas fa-calendar"></i></span>Next 5 Days</p>
+                            </div>>
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.7.1/dist/chart.min.js"></script>
+    <script src="js/chart.js"></script>
+
+
+
+</body>
+
+</html>
